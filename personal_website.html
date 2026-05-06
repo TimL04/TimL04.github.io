@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tim Lei | Portfolio</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.6;
+      color: #222;
+      background-color: #f5f7fa;
+    }
+
+    header {
+      background-color: #1f2937;
+      color: white;
+      padding: 30px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.2rem;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 1.1rem;
+      color: #d1d5db;
+    }
+
+    nav {
+      background-color: #111827;
+      padding: 12px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 12px;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .container {
+      max-width: 950px;
+      margin: 30px auto;
+      padding: 0 20px;
+    }
+
+    section {
+      background-color: white;
+      margin-bottom: 25px;
+      padding: 25px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    }
+
+    section h2 {
+      color: #1f2937;
+      margin-bottom: 12px;
+      border-bottom: 2px solid #e5e7eb;
+      padding-bottom: 8px;
+    }
+
+    .button-row {
+      margin-top: 20px;
+    }
+
+    .button {
+      display: inline-block;
+      background-color: #2563eb;
+      color: white;
+      padding: 10px 16px;
+      border-radius: 6px;
+      text-decoration: none;
+      margin-right: 10px;
+      margin-top: 10px;
+    }
+
+    .button:hover {
+      background-color: #1d4ed8;
+    }
+
+    .project {
+      margin-bottom: 20px;
+      padding-bottom: 15px;
+      border-bottom: 1px solid #e5e7eb;
+    }
+
+    .project:last-child {
+      border-bottom: none;
+    }
+
+    .project h3 {
+      color: #111827;
+      margin-bottom: 6px;
+    }
+
+    .skills-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 10px;
+    }
+
+    .skill {
+      background-color: #e5e7eb;
+      padding: 8px 12px;
+      border-radius: 20px;
+      font-size: 0.95rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      color: #6b7280;
+    }
+
+    @media (max-width: 600px) {
+      nav a {
+        display: block;
+        margin: 8px 0;
+      }
+
+      header h1 {
+        font-size: 1.8rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Tim Lei</h1>
+    <p>Computer Science Student | Cybersecurity Minor | IT & Technology Risk Interest</p>
+  </header>
+
+  <main class="container">
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        Hi, my name is Tim Lei. I am a Computer Science student at Virginia Tech with a minor in Cybersecurity.
+        I am interested in entry-level roles related to IT, technology risk, IT audit, cybersecurity, and software development.
+        I enjoy solving technical problems, and learning new systems.
+      </p>
+
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <div class="skills-list">
+        <span class="skill">Java</span>
+        <span class="skill">C</span>
+        <span class="skill">Python</span>
+        <span class="skill">HTML</span>
+        <span class="skill">CSS</span>
+        <span class="skill">Git</span>
+        <span class="skill">Linux</span>
+        <span class="skill">UX Research</span>
+      </div>
+    </section>
+
+    <section id="resume">
+      <h2>Resume</h2>
+      <p>
+        You can view or download my resume using the link below.
+      </p>
+      <div class="button-row">
+        <a class="button" href="resume.pdf" target="_blank">View Resume</a>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:timl21@vt.edu">timl21@vt.edu</a></p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/tim-lei-vt2027/" target="_blank">https://www.linkedin.com/in/tim-lei-vt2027/</a></p>
+      <p>GitHub: <a href="https://github.com/timl21/" target="_blank">https://github.com/timl21/</a></p>
+    </section>
+  </main>
+
+
+</body>
+</html>
